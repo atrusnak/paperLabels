@@ -1,0 +1,136 @@
+maxWords: 50000
+maxSeq:   150
+embeddin: 100
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:87 in 16
+
+maxWords: 50000
+maxSeq:   250   !!!
+embeddin: 100
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:88 in 15
+
+maxWords: 50000
+maxSeq:   50 !!!
+embeddin: 100
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy: 84 in 10 advnantage of speed but worse
+
+maxWords: 50000
+maxSeq:   50 !!!
+embeddin: 150
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:did not converge
+
+maxWords: 50000
+maxSeq:   50
+embeddin: 100 !!!
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:did not converge
+
+maxWords: 100000 !!!
+maxSeq:   50 
+embeddin: 100
+spatialD: 0.2
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:85 in 10 appears to overfit
+
+maxWords: 100000 
+maxSeq:   50 
+embeddin: 100
+spatialD: 0.3 !!!
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy:85 in 7
+
+maxWords: 200000 !!! 
+maxSeq:   50 
+embeddin: 100
+spatialD: 0.3
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy: 83 in 11
+
+maxWords: 200000 
+maxSeq:   250 !!! 
+embeddin: 100
+spatialD: 0.3
+LSTM:     150
+Dropouts: 0.2
+batch:    64
+Vaccuracy: didn't finish got impatient
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     50 !!!
+Dropouts: 0.2
+batch:    64
+Vaccuracy: 86 in 10 
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     250 !!!
+Dropouts: 0.2
+batch:    64
+Vaccuracy: 86 in 5
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     500 !!!
+Dropouts: 0.2
+batch:    64
+Vaccuracy: did not finish got impatient
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     150
+Dropouts: 0.2
+batch:    128 !!!
+Vaccuracy:84 in 20 with potential in more epochs 
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     150
+Dropouts: 0.2
+batch:    32 !!!
+Vaccuracy:85 in 6
+
+maxWords: 100000 
+maxSeq:   50
+embeddin: 100
+spatialD: 0.3
+LSTM:     150
+Dropouts: 0.3 !!!
+batch:    64
+Vaccuracy:85 in 10 then gets worse
+
+
