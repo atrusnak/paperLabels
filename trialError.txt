@@ -133,4 +133,12 @@ Dropouts: 0.3 !!!
 batch:    64
 Vaccuracy:85 in 10 then gets worse
 
-
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     100
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+Vaccuracy:90 in 15
