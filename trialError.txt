@@ -152,3 +152,13 @@ Dropouts: 0.2
 recurrent_dropout:0.1
 batch:    64
 Vaccuracy:90 in 12
+
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     256
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+Vaccuracy:91.05 in 10 epochs, 1400s per epoch, 3s/step
