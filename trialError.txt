@@ -142,3 +142,13 @@ Dropouts: 0.2
 recurrent_dropout:0.1
 batch:    64
 Vaccuracy:90 in 15
+
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     128
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+Vaccuracy:90 in 12
