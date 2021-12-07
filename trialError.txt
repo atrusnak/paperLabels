@@ -162,3 +162,24 @@ Dropouts: 0.2
 recurrent_dropout:0.1
 batch:    64
 Vaccuracy:91.05 in 10 epochs, 1400s per epoch, 3s/step
+
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     512
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+Vaccuracy:takes too long to train
+
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     256
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+data preprocessing: with extra filter
+Vaccuracy:90.89 in 10 epochs, 1300s per epoch, 3s/step
