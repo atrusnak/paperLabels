@@ -183,3 +183,14 @@ recurrent_dropout:0.1
 batch:    64
 data preprocessing: with extra filter
 Vaccuracy:90.89 in 10 epochs, 1300s per epoch, 3s/step
+
+maxWords: 50000 
+maxSeq:   250
+embeddin: 150
+spatialD: 0.1
+LSTM:     256
+Dropouts: 0.2
+recurrent_dropout:0.1
+batch:    64
+data preprocessing: with less filter
+Vaccuracy:61.97 in 7 epochs, 1300s per epoch, 3s/step
